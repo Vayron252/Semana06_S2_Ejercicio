@@ -1,0 +1,191 @@
+.contenedor {
+    margin: 2rem 2rem;
+    background-color: rgb(168, 203, 231);
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+
+    &__tarjeta {
+        box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -webkit-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -moz-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        background-color: white;
+        border-radius: 1.5rem;
+        height: 37rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 30rem;
+        // width: 100%;
+    }
+
+    &__categoria {
+        padding: 2rem;
+        text-align: center;
+        font-size: 1.5em;
+        color: rgb(202, 117, 202);
+    }
+
+    &__botonera {
+        padding: 1em;
+        margin: 0 2em;
+        color: white;
+        font-size: 1.5em;
+        background-color: rgb(30, 30, 77);
+        border-radius: 3em;
+        box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -webkit-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -moz-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+    }
+
+    &__precio {
+        text-align: center;
+        font-size: 4em;
+        font-weight: bold;
+        color: rgb(163, 39, 163);
+        margin-top: 1em;
+
+        & sup {
+            color: rgb(114, 113, 113);
+            font-size: .5em;
+        }
+    }
+
+    &__tiempo {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    &__plan {
+        font-size: 1.5em;
+        color: rgb(148, 145, 145);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &__descripcion {
+        margin-top: 3em;
+        text-align: center;
+        font-size: 1.2em;
+        padding: 1em;
+    }
+
+    &__btnCompra {
+        box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -webkit-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -moz-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        position: absolute;
+        background-color: purple;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: white;
+        padding: 2rem;
+        border-radius: 20px;
+        width: 13rem;
+        border: none;
+        text-transform: uppercase;
+        bottom: -2.5em;
+        left: 28%;
+        // margin: 0 auto;
+        // right: 50%;
+    }
+}
+
+.Container {
+    margin: 2rem 2rem;
+    background-color: rgb(168, 203, 231);
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+
+    &-Tarjeta {
+        box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -webkit-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -moz-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        background-color: white;
+        border-radius: 1.5rem;
+        height: 37rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 30rem;
+        // width: 100%;
+    }
+
+    &-Categoria {
+        padding: 2rem;
+        text-align: center;
+        font-size: 1.5em;
+        color: rgb(202, 117, 202);
+    }
+
+    &-Botonera {
+        padding: 1em;
+        margin: 0 2em;
+        color: white;
+        font-size: 1.5em;
+        background-color: rgb(30, 30, 77);
+        border-radius: 3em;
+        box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -webkit-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -moz-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+    }
+
+    &-Precio {
+        text-align: center;
+        font-size: 4em;
+        font-weight: bold;
+        color: rgb(163, 39, 163);
+        margin-top: 1em;
+
+        & sup {
+            color: rgb(114, 113, 113);
+            font-size: .5em;
+        }
+    }
+
+    &-Tiempo {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    &-Plan {
+        font-size: 1.5em;
+        color: rgb(148, 145, 145);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &-Descripcion {
+        margin-top: 3em;
+        text-align: center;
+        font-size: 1.2em;
+        padding: 1em;
+    }
+
+    &-BtnCompra {
+        box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -webkit-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        -moz-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
+        position: absolute;
+        background-color: purple;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: white;
+        padding: 2rem;
+        border-radius: 20px;
+        width: 13rem;
+        border: none;
+        text-transform: uppercase;
+        bottom: -2.5em;
+        left: 28%;
+        // margin: 0 auto;
+        // right: 50%;
+    }
+}

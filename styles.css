@@ -1,0 +1,176 @@
+.contenedor {
+  margin: 2rem 2rem;
+  background-color: rgb(168, 203, 231);
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+}
+.contenedor__tarjeta {
+  box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -webkit-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -moz-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  background-color: white;
+  border-radius: 1.5rem;
+  height: 37rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 30rem;
+}
+.contenedor__categoria {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(202, 117, 202);
+}
+.contenedor__botonera {
+  padding: 1em;
+  margin: 0 2em;
+  color: white;
+  font-size: 1.5em;
+  background-color: rgb(30, 30, 77);
+  border-radius: 3em;
+  box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -webkit-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -moz-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+}
+.contenedor__precio {
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(163, 39, 163);
+  margin-top: 1em;
+}
+.contenedor__precio sup {
+  color: rgb(114, 113, 113);
+  font-size: 0.5em;
+}
+.contenedor__tiempo {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.contenedor__plan {
+  font-size: 1.5em;
+  color: rgb(148, 145, 145);
+  font-weight: bold;
+  text-align: center;
+}
+.contenedor__descripcion {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1em;
+}
+.contenedor__btnCompra {
+  box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -webkit-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -moz-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  position: absolute;
+  background-color: purple;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 13rem;
+  border: none;
+  text-transform: uppercase;
+  bottom: -2.5em;
+  left: 28%;
+}
+
+.Container {
+  margin: 2rem 2rem;
+  background-color: rgb(168, 203, 231);
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+}
+.Container-Tarjeta {
+  box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -webkit-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -moz-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  background-color: white;
+  border-radius: 1.5rem;
+  height: 37rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 30rem;
+}
+.Container-Categoria {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(202, 117, 202);
+}
+.Container-Botonera {
+  padding: 1em;
+  margin: 0 2em;
+  color: white;
+  font-size: 1.5em;
+  background-color: rgb(30, 30, 77);
+  border-radius: 3em;
+  box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -webkit-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -moz-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+}
+.Container-Precio {
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(163, 39, 163);
+  margin-top: 1em;
+}
+.Container-Precio sup {
+  color: rgb(114, 113, 113);
+  font-size: 0.5em;
+}
+.Container-Tiempo {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.Container-Plan {
+  font-size: 1.5em;
+  color: rgb(148, 145, 145);
+  font-weight: bold;
+  text-align: center;
+}
+.Container-Descripcion {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1em;
+}
+.Container-BtnCompra {
+  box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -webkit-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  -moz-box-shadow: 0px 0px 32px -6px rgba(85, 45, 97, 0.89);
+  position: absolute;
+  background-color: purple;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 13rem;
+  border: none;
+  text-transform: uppercase;
+  bottom: -2.5em;
+  left: 28%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}/*# sourceMappingURL=styles.css.map */
