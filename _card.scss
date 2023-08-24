@@ -1,12 +1,13 @@
 .contenedor {
-    margin: 2rem 2rem;
+    margin: 0 auto;
     background-color: rgb(168, 203, 231);
     padding: 2rem;
     display: flex;
     gap: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
-
+    width: 90rem;
+    
     &__tarjeta {
         box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
         -webkit-box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
@@ -87,7 +88,7 @@
         width: 13rem;
         border: none;
         text-transform: uppercase;
-        bottom: -2.5em;
+        bottom: -1em;
         left: 28%;
         // margin: 0 auto;
         // right: 50%;
@@ -95,13 +96,14 @@
 }
 
 .Container {
-    margin: 2rem 2rem;
+    margin: 0 auto;
     background-color: rgb(168, 203, 231);
     padding: 2rem;
     display: flex;
     gap: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
+    width: 90rem;
 
     &-Tarjeta {
         box-shadow: 0px 0px 32px -6px rgba(85,45,97,0.89);
